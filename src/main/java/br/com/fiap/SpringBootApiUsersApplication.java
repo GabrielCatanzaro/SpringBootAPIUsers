@@ -10,5 +10,3 @@ public class SpringBootApiUsersApplication {
         SpringApplication.run(SpringBootApiUsersApplication.class, args);
     }
 }
-
-

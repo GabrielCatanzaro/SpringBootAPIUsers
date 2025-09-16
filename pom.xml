@@ -49,12 +49,6 @@
             <scope>runtime</scope>
         </dependency>
 
-        <!-- Flyway Oracle -->
-        <dependency>
-            <groupId>org.flywaydb</groupId>
-            <artifactId>flyway-core</artifactId>
-        </dependency>
-
         <!-- Lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -88,7 +82,6 @@
 
     <build>
         <plugins>
-            <!-- Necessário para o Lombok -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -102,7 +95,7 @@
                 </configuration>
             </plugin>
 
-            <!-- Plugin do Spring Boot -->
+            <!-- Plugin do SpringBoot -->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>

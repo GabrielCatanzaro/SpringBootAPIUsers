@@ -45,14 +45,14 @@
         <dependency>
             <groupId>com.oracle.database.jdbc</groupId>
             <artifactId>ojdbc11</artifactId>
-            <version>23.4.0.24.05</version>
+            <version>21.9.0.0</version>
             <scope>runtime</scope>
         </dependency>
 
         <!-- Flyway Oracle -->
         <dependency>
             <groupId>org.flywaydb</groupId>
-            <artifactId>flyway-oracle</artifactId>
+            <artifactId>flyway-core</artifactId>
         </dependency>
 
         <!-- Lombok -->

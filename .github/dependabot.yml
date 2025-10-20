@@ -7,6 +7,8 @@ updates:
     open-pull-requests-limit: 10
     # Optionally, specify a list of directories to ignore
     # ignore:
+
+
     #   - dependency-name
     #   - dependency-name-2
     # Optionally, specify a list of dependencies to group together in a single pull request
